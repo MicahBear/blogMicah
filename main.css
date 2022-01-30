@@ -6,6 +6,7 @@ header {
 }
 
 nav {
+  text-align: left;
   display: flex;
   gap: 1em;
   font-size: 18px;

@@ -5,6 +5,12 @@ header {
   text-align: left;
 }
 
+nav {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
 .main {
   font-family: "Red Hat Mono", monospace;
   display: block;

@@ -1,0 +1,13 @@
+header {
+  display: block;
+  text-align: left;
+}
+
+.main {
+  display: block;
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 600px;
+  flex: 1;
+  width: 100%;
+}

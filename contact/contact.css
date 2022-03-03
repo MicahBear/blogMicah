@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@400;600&display=swap");
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Red Hat Mono", monospace;
+}
+header nav ul {
+  list-style: none;
+  justify-content: space-evenly;
+  display: flex;
+  font-size: 2em;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+main h1 {
+  font-size: 2em;
+  display: flex;
+
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+}
+
+main form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  font-size: 1.5em;
+}
+label {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+#message {
+  justify-content: flex-start;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+#contactButton {
+  display: block;
+  /* margin-top: 400px; */
+  height: 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+}

@@ -16,6 +16,9 @@ nav {
 
   font-size: 2em;
 }
+nav a {
+  text-decoration: none;
+}
 
 main {
   font-family: "Red Hat Mono", monospace;
@@ -30,8 +33,12 @@ main {
   font-size: 1.5em;
   height: 800px;
 }
+h1 {
+  font-size: 2em;
+}
 footer {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  font-size: 1.3em;
 }

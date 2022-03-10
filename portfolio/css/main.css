@@ -1,0 +1,100 @@
+html {
+  box-sizing: border-box;
+}
+header {
+  height: 100px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: right;
+  padding-top: 10px;
+}
+nav ul li {
+  flex-basis: 3%;
+}
+nav ul li a {
+  text-decoration: none;
+}
+
+main > article + article {
+  display: flex;
+  flex-direction: column;
+  -moz-box-align: center;
+  align-items: flex-end;
+  justify-content: right;
+}
+
+main > article + article a {
+  writing-mode: vertical-rl;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: right;
+}
+
+#intro {
+  display: flex;
+
+  justify-content: center;
+
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px auto;
+
+  max-width: 1000px;
+  padding: 0px;
+}
+
+#about {
+  display: grid;
+  margin: 0px auto;
+  max-width: 900px;
+  grid-template-columns: 3fr 2fr;
+  gap: 50px;
+}
+#skillList {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  gap: 0px 10px;
+  padding: 0px;
+  margin: 20px 0px 0px;
+  overflow: hidden;
+  list-style: none;
+}
+#imgParent {
+  position: relative;
+  max-width: 300px;
+}
+
+#work {
+  margin: 0px auto;
+  padding: 100px 0px;
+  max-width: 1000px;
+}
+.projectList {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.project {
+  margin-bottom: 100px;
+  position: relative;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(12, 1fr);
+
+  align-items: center;
+}
+.project .projectContent {
+  grid-column: 7 / -1;
+  text-align: right;
+  position: relative;
+  grid-area: 1 / 1 / -1 / 7;
+}
+.project .projectImgContent {
+  grid-area: 1 / 6 / -1 / -1;
+  grid-column: 1 / 8;
+  position: relative;
+  z-index: 1;
+}

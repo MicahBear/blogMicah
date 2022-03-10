@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Micah Elm</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <header>
       <nav>
         <ul>
-          <li>About</li>
-          <li>Work</li>
-          <li>Services</li>
-          <li>Contact</li>
+          <li><a href="">About</a></li>
+          <li><a href="">Work</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Resume</a></li>
         </ul>
       </nav>
     </header>
@@ -26,9 +30,9 @@
         </ul>
       </article>
       <article>
-        <a href="mailto:">email</a>
+        <a href="mailto:">micah.b.elm@gmail.com</a>
       </article>
-      <section>
+      <section id="intro">
         <span>Hi, my name is</span>
         <h2>Micah Elm.</h2>
         <h3>I build things for people.</h3>
@@ -53,54 +57,77 @@
             looking and sounding myspace profiles.Which was just the beginning
             for me.
           </p>
+          <p>Here are a few technologies I have been working with recently:</p>
+          <ul id="skillList">
+            <li>JavaScript</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Node.js</li>
+            <li>React</li>
+            <li>Typescript</li>
+          </ul>
         </section>
-        <section>
+        <section id="imgParent">
           <img src="" alt="Headshot" />
         </section>
       </section>
       <section id="work">
         <h2>Some Things I've Built</h2>
-        <ul>
-          <li>
-            <p>Featured Project</p>
-            <h3>project title</h3>
-            <p>basic description of project</p>
-            <ul>
-              <li>tech list</li>
-              <li>react</li>
-              <li>javascript</li>
-              <li>html</li>
-              <li>spotify api</li>
-            </ul>
-            <a href="http://">Project Link (ifneeded)</a>
+        <ul class="projectList">
+          <li class="project">
+            <section class="projectContent">
+              <p>Featured Project</p>
+              <h3>project title</h3>
+              <p>basic description of project</p>
+              <ul>
+                <li>tech list</li>
+                <li>react</li>
+                <li>javascript</li>
+                <li>html</li>
+                <li>spotify api</li>
+              </ul>
+              <a href="http://">Project Link (ifneeded)</a>
+            </section>
+            <section class="projectImgContent">
+              <a href="#"><img src="" alt="project img" /></a>
+            </section>
           </li>
-          <li>
-            <p>Featured Project</p>
-            <h3>project title</h3>
-            <p>basic description of project</p>
-            <ul>
-              <li>tech list</li>
-              <li>react</li>
-              <li>javascript</li>
-              <li>html</li>
-              <li>spotify api</li>
-            </ul>
-            <a href="http://">Project Link (ifneeded)</a>
+          <li class="project">
+            <section class="projectContent">
+              <p>Featured Project</p>
+              <h3>project title</h3>
+              <p>basic description of project</p>
+              <ul>
+                <li>tech list</li>
+                <li>react</li>
+                <li>javascript</li>
+                <li>html</li>
+                <li>spotify api</li>
+              </ul>
+              <a href="http://">Project Link (ifneeded)</a>
+            </section>
+            <section class="projectImgContent">
+              <a href="#"><img src="" alt="project img" /></a>
+            </section>
           </li>
-          <li>
-            <p>Featured Project</p>
-            <h3>project title</h3>
-            <p>basic description of project</p>
-            <ul>
-              <li>tech list</li>
-              <li>react</li>
-              <li>javascript</li>
-              <li>html</li>
-              <li>spotify api</li>
-            </ul>
-            <a href="http://">Project Link (ifneeded)</a>
+          <li class="project">
+            <section class="projectContent">
+              <p>Featured Project</p>
+              <h3>project title</h3>
+              <p>basic description of project</p>
+              <ul>
+                <li>tech list</li>
+                <li>react</li>
+                <li>javascript</li>
+                <li>html</li>
+                <li>spotify api</li>
+              </ul>
+              <a href="http://">Project Link (ifneeded)</a>
+            </section>
+            <section class="projectImgContent">
+              <a href=""><img src="" alt="project img" /></a>
+            </section>
           </li>
-          <a href=""><img src="" alt="project img" /></a>
         </ul>
       </section>
       <section id="services"></section>

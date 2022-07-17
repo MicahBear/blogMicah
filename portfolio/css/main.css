@@ -4,14 +4,23 @@ html {
 header {
   height: 100px;
 }
-
+/* nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: blue;
+  border-radius: 12px;
+} */
+nav {
+  background: blue;
+}
 nav ul {
   display: flex;
   justify-content: right;
   padding-top: 10px;
 }
 nav ul li {
-  flex-basis: 3%;
+  flex-basis: 6%;
 }
 nav ul li a {
   text-decoration: none;
@@ -31,6 +40,9 @@ main > article + article a {
   display: inline-block;
   justify-content: right;
 }
+footer {
+  border: 1px solid goldenrod;
+}
 
 #intro {
   display: flex;
@@ -43,6 +55,7 @@ main > article + article a {
 
   max-width: 1000px;
   padding: 0px;
+  border: 1px solid royalblue;
 }
 
 #about {
@@ -51,6 +64,7 @@ main > article + article a {
   max-width: 900px;
   grid-template-columns: 3fr 2fr;
   gap: 50px;
+  border: 1px solid black;
 }
 #skillList {
   display: grid;
@@ -70,6 +84,9 @@ main > article + article a {
   margin: 0px auto;
   padding: 100px 0px;
   max-width: 1000px;
+}
+#contact {
+  border: 1px solid rebeccapurple;
 }
 .projectList {
   list-style: none;

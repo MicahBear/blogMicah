@@ -43,9 +43,34 @@ main > article + article a {
 footer {
   border: 1px solid goldenrod;
 }
+#background-image {
+  position: relative;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  margin-top: -2rem;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(/blogMicah/src/imgs/john-bogna-hYbWJvCHVRo-unsplash.jpg);
+}
+#container {
+  z-index: 20;
+  position: relative;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 1280px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #intro {
+  padding: 8rem 1rem;
   display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  /* display: flex;
 
   justify-content: center;
 
@@ -53,11 +78,46 @@ footer {
   align-items: flex-start;
   margin: 0px auto;
 
-  max-width: 1000px;
-  padding: 0px;
-  border: 1px solid royalblue;
+  width: auto;
+  padding: 0px; */
+}
+#left-column {
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
 }
 
+#sp-id-1 {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem rem;
+  --tw-text-opacity: 1;
+  color: rgba(247, 250, 252, var(--tw-text-opacity));
+  border-left-width: 4px;
+  --tw-border-opacity: 1;
+  border-color: rgba(66, 153, 225, var(--tw-border-opacity));
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+.myName {
+  text-align: left;
+  font-size: 3rem;
+  font-weight: 900;
+  --tw-text-opacity: 1;
+  color: rgba(247, 250, 252, var(--tw-text-opacity));
+  line-height: 1;
+}
+.statement {
+  text-align: left;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(242, 237, 237, var(--tw-text-opacity));
+  margin-top: 0.5rem;
+  font-size: inherit;
+}
 #about {
   display: grid;
   margin: 0px auto;

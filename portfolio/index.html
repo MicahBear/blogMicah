@@ -48,46 +48,60 @@
                 I enjoy creating for people and communities.
               </h3>
               <div class="backgroundImage socialLinks">
-                <a href="http://"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="http://"><i class="fa-brands fa-twitter"></i></a>
-                <a href="http://"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mbelm/"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+                <a href="https://twitter.com/MicahBElm"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a href="https://github.com/MicahBear"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
               </div>
             </div>
           </section>
         </div>
       </div>
-      <section id="about">
-        <section>
-          <h2>About Me</h2>
-          <span>
-            I am a software engineer based in Oregon. I like to focus on
-            building accessible, human centered products.</span
-          >
-          <span>I love learning and creating.</span>
-          <p>
-            I have a versatile skill-set that includes, full-stack web
-            development, software engineering, experiance as an operations
-            manager, farmer, and sales manager. I am grateful for opportunities
-            to connect, learn from and learn with others that will contribute to
-            communities. When I am not coding, find me in the garden with my
-            family, working on projects with my dad, or woodworking in the
-            garage.
-          </p>
+      <div class="aboutContainer">
+        <section id="about">
+          <section id="textParent">
+            <h2 class="aboutTitle">About Me</h2>
+            <div class="aboutText">
+              <span>
+                I am a software engineer based in Oregon. I like to focus on
+                building accessible, human centered products.</span
+              >
 
-          <p>Here are a few technologies I have been working with recently:</p>
-          <ul id="skillList">
-            <li>JavaScript</li>
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>Node.js</li>
-            <li>React</li>
-            <li>Typescript</li>
-          </ul>
+              <span>I love learning and creating.</span>
+              <br />
+              <br />
+              <p>
+                I have a versatile skill-set that includes, full-stack web
+                development, software engineering, experiance as an operations
+                manager, farmer, and sales manager. I am grateful for
+                opportunities to connect, learn from and with others, and help
+                ideas come to life that can contribute to communities. A few
+                technologies I use; JavaScript, Express, MongoDB, and Node.
+              </p>
+            </div>
+
+            <!-- <p>
+              Here are a few technologies I have been working with recently:
+            </p>
+            <ul id="skillList">
+              <li>JavaScript</li>
+              <li>CSS</li>
+              <li>HTML</li>
+              <li>Node.js</li>
+              <li>React</li>
+              <li>Typescript</li>
+            </ul> -->
+          </section>
+          <section id="imgParent">
+            <img src="/blogMicah/src/imgs/profilepicM.E.jpg" alt="Headshot" />
+          </section>
         </section>
-        <section id="imgParent">
-          <img src="/blogMicah/src/imgs/profilepicM.E.jpg" alt="Headshot" />
-        </section>
-      </section>
+      </div>
       <!--Project section-->
       <!-- <section id="work">
         <h2>Some Things I've Built</h2>
@@ -149,16 +163,64 @@
         </ul>
       </section>
       <section id="services"></section> -->
-      <section id="contact">
-        <span>What's Next?</span>
+      <div id="contactContainer">
+        <div id="contactContent">
+          <h2 class="contactTitle">Contact Me</h2>
+          <div class="formContainer">
+            <div class="formStyle">
+              <form
+                id="fs-frm"
+                name="simple-contact-form"
+                accept-charset="utf-8"
+                action="https://formspree.io/f/mzbonzbn"
+                method="post"
+              >
+                <fieldset id="fs-frm-inputs">
+                  <label for="full-name">Full Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="full-name"
+                    placeholder="First and Last"
+                    required=""
+                  />
+                  <label for="email-address">Email Address</label>
+                  <input
+                    type="email"
+                    name="_replyto"
+                    id="email-address"
+                    placeholder="email@domain.tld"
+                    required=""
+                  />
+                  <label for="message">Message</label>
+                  <textarea
+                    rows="5"
+                    name="message"
+                    id="message"
+                    placeholder="Details about your company or project"
+                    required=""
+                  ></textarea>
+                  <input
+                    type="hidden"
+                    name="_subject"
+                    id="email-subject"
+                    value="Contact Form Submission"
+                  />
+                </fieldset>
+                <input type="submit" value="Submit" />
+              </form>
+            </div>
+          </div>
+          <!-- <span>What's Next?</span>
         <p>Projects coming soon</p>
         <h2>Get In Touch</h2>
         <p>
           My inbox is always open for opportunities or connections. If you have
           a question I'll get back to you.
         </p>
-        <a href="">Say hello</a>
-      </section>
+        <a href="">Say hello</a> -->
+        </div>
+      </div>
     </main>
 
     <footer>
